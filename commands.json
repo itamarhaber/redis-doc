@@ -842,6 +842,12 @@
         "optional": true
       },
       {
+        "name": "sort",
+        "type": "enum",
+        "enum": ["ASC", "DESC"],
+        "optional": true
+      },
+      {
         "command": "COUNT",
         "name": "count",
         "type": "integer",
@@ -887,6 +893,12 @@
         "name": "withhash",
         "type": "enum",
         "enum": ["WITHHASH"],
+        "optional": true
+      },
+      {
+        "name": "sort",
+        "type": "enum",
+        "enum": ["ASC", "DESC"],
         "optional": true
       },
       {
